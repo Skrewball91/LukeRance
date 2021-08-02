@@ -1,5 +1,5 @@
 #logo {
-    width: 400pt;
+    width: 600pt;
 }
 .text {
     color: black;
@@ -13,22 +13,28 @@
     background-image: url('Images/Cat\ Cat\ Village.jpg');
     border:black 1px;
 }
-div.form
+
+.form
 {
-    display: block;
+    display: inline-block;
     text-align: center;
-}
-#form {
     padding: 12pt;
     background-color: black;
     color: cornsilk;
-    display: inline-block;
-    float: none;
-    text-align: center;
-    vertical-align: top;
-    list-style-type: none;
+    float:none;
     margin-left:auto;
 }
+#center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    float:none;
+    margin-left:auto;
+
+}
+
 .footer {
     color:cornsilk;
     background-color: black;
@@ -83,11 +89,11 @@ div.form
     text-align: center;
 }
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
- vertical-align: top;
- background-color: black;
-}
+    display: inline-block;
+    float: none;
+   vertical-align: top;
+   background-color: black;
+  }
 
 .navbar .navbar-collapse {
 text-align: center;

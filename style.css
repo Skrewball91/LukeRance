@@ -2,16 +2,13 @@
     width: 600pt;
 }
 .text {
-    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     border: 1px solid white;
     font-size: 20pt;
-    font-style: italic;
-    font-family: cursive;
-    height: 529pt;
     width: auto;
-    background-image: url('Images/Cat\ Cat\ Village.jpg');
     border:black 1px;
+    color: cornsilk;
 }
 
 .form
@@ -26,7 +23,7 @@
 }
 #center {
     margin: auto;
-    width: 60%;
+    width: 100%;
     padding: 10px;
     display: inline-block;
     text-align: center;
@@ -48,10 +45,15 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100pt;
     font-variant: small-caps;
-    color: black;
     border-radius: .5px;
     border: black;
     text-align: center;
+    color: blanchedalmond;
+}
+.headingtext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30pt;
+    font-variant: small-caps;
     color: blanchedalmond;
 }
 .container {
@@ -62,6 +64,10 @@
     float: none;
     vertical-align: top;
     list-style-type: none;
+}
+.container-sm {
+    background-color: black;
+    color: cornsilk;
 }
 .main {
     background: url("Images/Sunrise.png") no-repeat center center fixed;

@@ -1,5 +1,3 @@
-# LukeRance
-First project for the Learning People
 <!DOCTYPE html>
 <html lang="en">
 
